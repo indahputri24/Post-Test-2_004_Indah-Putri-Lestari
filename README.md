@@ -20,7 +20,7 @@ Package model berisi class Parkir yang bertugas merepresentasikan struktur data 
 
 <img width="401" height="72" alt="image" src="https://github.com/user-attachments/assets/751345f4-1dcb-410c-88f9-72323b1a3418" />
 
-
+Package view berisi class ParkingView yang bertugas menampilkan informasi kepada pengguna. Class ini menangani tampilan menu, format tabel data parkir, dan pesan hasil proses seperti konfirmasi penambahan, pembaruan, atau penghapusan data. Dengan memisahkan logika tampilan di sini, kode program menjadi lebih rapi karena bagian view hanya fokus pada antarmuka.
 
 ## Service
 
