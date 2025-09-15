@@ -8,7 +8,7 @@ Program Sistem Parkir Kendaraan di Mall adalah program sederhana untuk mencatat 
 
 <img width="584" height="363" alt="image" src="https://github.com/user-attachments/assets/c18bc807-4ca0-46a8-a052-dc8a3f55a318" />
 
-Arsitektur MVC (Model–View–Controller) membagi program menjadi tiga komponen utama agar terstruktur dan mudah dikelola. Model mengatur dan menyimpan data inti seperti informasi tiket parkir lengkap dengan atribut dan perhitungannya. View bertugas menampilkan menu, tabel, serta hasil proses kepada pengguna. Controller menjadi penghubung yang menerima input dari View, memproses logika dan perhitungan pada Model, lalu mengirim kembali hasilnya ke View.
+Arsitektur MVC (Model–View–Controller) membagi program menjadi tiga komponen utama agar terstruktur dan mudah dikelola. Model mengatur dan menyimpan data inti seperti informasi tiket parkir lengkap dengan atribut dan perhitungannya. View bertugas menampilkan menu, tabel, serta hasil proses kepada pengguna. Controller (Main) menjadi penghubung yang menerima input dari Main, memproses logika dan perhitungan pada Model, lalu mengirim hasilnya ke View.
 
 ## Model
 
@@ -26,13 +26,13 @@ Package view berisi class ParkingView yang bertugas menampilkan informasi kepada
 
 <img width="416" height="82" alt="image" src="https://github.com/user-attachments/assets/9a3778ec-d459-4137-90fe-5434dd12a28b" />
 
-Package service berisi class ParkingService yang menjadi pusat pengolahan data parkir. Class ini menerima perintah dari tampilan atau menu di Main (View) lalu menjalankan proses seperti menambah data kendaraan, menampilkan daftar parkir, memperbarui informasi (misalnya mengisi jam keluar dan menghitung biaya), mencari data berdasarkan ID, plat, atau jenis kendaraan, serta menghapus data yang sudah tidak diperlukan. Semua aturan dan perhitungan disimpan di class ini sehingga logika program terpisah dari tampilan.
+Package service berisi class ParkingService yang menjadi pusat pengolahan data parkir. Class ini menerima perintah dari Main lalu menjalankan proses seperti menambah data kendaraan, menampilkan daftar parkir, memperbarui informasi (misalnya mengisi jam keluar dan menghitung biaya), mencari data berdasarkan ID, plat, atau jenis kendaraan, serta menghapus data yang sudah tidak diperlukan. Semua aturan dan perhitungan disimpan di class ini sehingga logika program terpisah dari tampilan.
 
 ## Main
 
-<img width="426" height="69" alt="image" src="https://github.com/user-attachments/assets/a49b65c7-ca2a-4e82-8da3-e1b698e63bc9" />
+<img width="407" height="82" alt="image" src="https://github.com/user-attachments/assets/44153772-7265-4d80-9577-963a7205cb62" />
 
-Package default berisi class Main yang menjadi titik awal (entry point) jalannya program. Class ini menampilkan menu utama ke pengguna, menerima input pilihan menu melalui Scanner, lalu meneruskan perintah tersebut ke ParkingService untuk diproses.
+Package main berisi class Main yang menjadi titik awal (entry point) jalannya program. Class ini menampilkan menu utama ke pengguna, menerima input pilihan menu melalui Scanner, lalu meneruskan perintah tersebut ke ParkingService untuk diproses.
 
 # Penjelasan Alur Program
 
