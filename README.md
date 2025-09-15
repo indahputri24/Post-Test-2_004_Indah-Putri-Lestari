@@ -6,7 +6,7 @@ Program Sistem Parkir Kendaraan di Mall adalah program sederhana untuk mencatat 
 
 # Struktur Packages
 
-<img width="492" height="367" alt="image" src="https://github.com/user-attachments/assets/07a45753-ff2a-47f7-8b36-d699ae670f74" />
+<img width="584" height="363" alt="image" src="https://github.com/user-attachments/assets/c18bc807-4ca0-46a8-a052-dc8a3f55a318" />
 
 Arsitektur MVC (Model–View–Controller) membagi program menjadi tiga komponen utama agar terstruktur dan mudah dikelola. Model mengatur dan menyimpan data inti seperti informasi tiket parkir lengkap dengan atribut dan perhitungannya. View bertugas menampilkan menu, tabel, serta hasil proses kepada pengguna. Controller menjadi penghubung yang menerima input dari View, memproses logika dan perhitungan pada Model, lalu mengirim kembali hasilnya ke View.
 
@@ -18,7 +18,7 @@ Package model berisi class Parkir yang bertugas merepresentasikan struktur data 
 
 ## View
 
-<img width="401" height="72" alt="image" src="https://github.com/user-attachments/assets/751345f4-1dcb-410c-88f9-72323b1a3418" />
+<img width="534" height="78" alt="image" src="https://github.com/user-attachments/assets/17e6ba08-50f9-4bde-ab07-5bbfed941198" />
 
 Package view berisi class ParkingView yang bertugas menampilkan informasi kepada pengguna. Class ini menangani tampilan menu, format tabel data parkir, dan pesan hasil proses seperti konfirmasi penambahan, pembaruan, atau penghapusan data. Dengan memisahkan logika tampilan di sini, kode program menjadi lebih rapi karena bagian view hanya fokus pada antarmuka.
 
