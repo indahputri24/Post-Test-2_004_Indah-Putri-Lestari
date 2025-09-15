@@ -20,7 +20,7 @@ Package model berisi class Parkir yang bertugas merepresentasikan struktur data 
 
 <img width="534" height="78" alt="image" src="https://github.com/user-attachments/assets/17e6ba08-50f9-4bde-ab07-5bbfed941198" />
 
-Package view berisi class ParkingView yang bertugas menampilkan informasi kepada pengguna. Class ini menangani tampilan menu, format tabel data parkir, dan pesan hasil proses seperti konfirmasi penambahan, pembaruan, atau penghapusan data. Dengan memisahkan logika tampilan di sini, kode program menjadi lebih rapi karena bagian view hanya fokus pada antarmuka.
+Package view berisi class ParkingView yang bertugas menampilkan informasi kepada pengguna. Class ini menangani tampilan menu, format tabel data parkir, dan pesan hasil proses seperti konfirmasi penambahan, pembaruan, atau penghapusan data.
 
 ## Service
 
@@ -42,11 +42,11 @@ Package default berisi class Main yang menjadi titik awal (entry point) jalannya
 
 Di dalamnya terdapat enam pilihan utama yang masing-masing menghubungkan pengguna dengan fungsi CRUD yang disediakan oleh ParkingService:
 1. Tambah Data Parkir: Menjalankan method tambahData() untuk menambahkan data kendaraan baru lengkap dengan plat, jenis, blok, dan jam masuk.
-2. Tampilkan Data Parkir: Menjalankan method tampilkanData() untuk menampilkan seluruh data parkir yang tersimpan dalam format tabel.
-3. Perbarui Data Parkir: Menjalankan method perbaruiData() agar pengguna bisa mengubah informasi tertentu, misalnya plat, jenis, blok, atau menambahkan jam keluar sekaligus menghitung biaya.
-4. Hapus Data Parkir: Menjalankan method hapusData() untuk menghapus data berdasarkan ID tiket atau plat nomor kendaraan.
-5. Cari Data Parkir: Menjalankan method cariData() yang memungkinkan pencarian data melalui ID tiket, plat nomor, atau jenis kendaraan.
-6. Keluar: Mengakhiri program dengan menutup loop utama.
+3. Tampilkan Data Parkir: Menjalankan method tampilkanData() untuk menampilkan seluruh data parkir yang tersimpan dalam format tabel.
+4. Perbarui Data Parkir: Menjalankan method perbaruiData() agar pengguna bisa mengubah informasi tertentu, misalnya plat, jenis, blok, atau menambahkan jam keluar sekaligus menghitung biaya.
+5. Hapus Data Parkir: Menjalankan method hapusData() untuk menghapus data berdasarkan ID tiket atau plat nomor kendaraan.
+6. Cari Data Parkir: Menjalankan method cariData() yang memungkinkan pencarian data melalui ID tiket, plat nomor, atau jenis kendaraan.
+7. Keluar: Mengakhiri program dengan menutup loop utama.
 
 Setelah menu tampil, program menunggu input angka [1–6] dari pengguna.
 
@@ -146,7 +146,7 @@ Jika pengguna salah memasukkan jam keluar, misalnya mengetik angka atau huruf da
 
 <img width="1395" height="1526" alt="image" src="https://github.com/user-attachments/assets/f442175b-213b-48c4-aabe-9a46ac9e9ff9" />
 
-Ketika data parkir dengan id tiket "0001" yang sudah memiliki jam keluar (16.40) kembali dipilih untuk Perbarui Data Parkir. Setelah itu pengguna memilih menu 4. Jam Keluar (hitung biaya), program menolak perubahan dan menampilkan pesan “Data ini sudah memiliki jam keluar.”. Hal ini untuk mencegah perhitungan ganda atau pengubahan jam keluar.
+Ketika data parkir dengan id tiket "0001" yang sudah memiliki jam keluar (16.40) kembali dipilih untuk Perbarui Data Parkir. Setelah itu pengguna memilih menu 4. Jam Keluar (hitung biaya), program menolak perubahan dan menampilkan pesan “Data ini sudah memiliki jam keluar.”. Hal ini untuk mencegah perhitungan ganda atau perubahan jam keluar.
 
 <img width="1062" height="1478" alt="image" src="https://github.com/user-attachments/assets/25e7c3c9-8c39-488b-8acf-5ae46684b070" />
 
@@ -162,7 +162,7 @@ Program menampilkan daftar data parkir yang tersedia, kemudian pengguna mengetik
 
 <img width="1381" height="479" alt="image" src="https://github.com/user-attachments/assets/cb480db0-3c67-441f-bc10-bc864d414602" />
 
-Pada saat pengguna memilih menu Hapus Data Parkir, program terlebih dahulu menampilkan seluruh daftar kendaraan yang sedang terdaftar di parkiran. Pengguna kemudian memasukkan plat nomor KT5464BAJ sebagai data yang ingin dihapus. Untuk memastikan, program meminta konfirmasi dengan pertanyaan “Yakin ingin menghapus data dengan plat KT1424IO? (Y/T)”. Setelah pengguna mengetikkan Y, program langsung menghapus data tersebut dari daftar parkir. Proses ini ditutup dengan pesan konfirmasi “Data dengan plat KT1424IO berhasil dihapus!”, yang menandakan bahwa data kendaraan tersebut sudah tidak ada lagi di daftar parkir.
+Pada saat pengguna memilih menu Hapus Data Parkir, program terlebih dahulu menampilkan seluruh daftar kendaraan yang sedang terdaftar di parkiran. Pengguna kemudian memasukkan plat nomor KT1424IO sebagai data yang ingin dihapus. Untuk memastikan, program meminta konfirmasi dengan pertanyaan “Yakin ingin menghapus data dengan plat KT1424IO? (Y/T)”. Setelah pengguna mengetikkan Y, program langsung menghapus data tersebut dari daftar parkir. Proses ini ditutup dengan pesan konfirmasi “Data dengan plat KT1424IO berhasil dihapus!”, yang menandakan bahwa data kendaraan tersebut sudah tidak ada lagi di daftar parkir.
 
 <img width="1394" height="807" alt="image" src="https://github.com/user-attachments/assets/77a5ff4c-40ff-4040-a5b3-d8bb5eeab24c" />
 
