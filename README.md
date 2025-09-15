@@ -2,7 +2,7 @@
 
 # Deskripsi Program
 
-Program Sistem Parkir Kendaraan di Mall adalah program sederhana untuk mencatat data kendaraan yang parkir di mall dengan operasi CRUD (Create, Read, Update, Delete). Setiap data mencakup ID tiket otomatis, plat nomor, jenis kendaraan, blok parkir, serta jam masuk dan keluar. Program juga melakukan perhitungan durasi dan biaya parkir dengan tarif berbeda untuk mobil dan motor, serta validasi input seperti format plat dan jam. Dengan pemisahan peran Parkir sebagai Model, ParkingService sebagai Service, dan Main sebagai View.
+Program Sistem Parkir Kendaraan di Mall adalah program sederhana untuk mencatat data kendaraan yang parkir di mall dengan operasi CRUD (Create, Read, Update, Delete). Setiap data mencakup ID tiket otomatis, plat nomor, jenis kendaraan, blok parkir, serta jam masuk dan keluar. Program juga melakukan perhitungan durasi dan biaya parkir dengan tarif berbeda untuk mobil dan motor, serta validasi input seperti format plat dan jam.
 
 # Struktur Packages
 
