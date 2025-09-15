@@ -178,6 +178,10 @@ Ketika pengguna menghapus data dengan id tiket "6". Program mendeteksi id tiket 
 
 Ketika pengguna memasukkan ID tiket 2, program menampilkan detail kendaraan dengan plat KT1234AB, jenis Motor, blok B2, jam masuk 08:30, jam keluar 12:20, durasi parkir 230 menit, dan biaya Rp12.000.
 
+<img width="1274" height="500" alt="image" src="https://github.com/user-attachments/assets/a76a783c-38fb-4e9c-ab99-6341d8450bf4" />
+
+Ketika pengguna hanya mengetik kata kunci “bil”, bukan kata lengkap mobil. Program tetap menampilkan semua data kendaraan Mobil (ID 0001, 0003, dan 0005), program akan mencocokkan input dengan sebagian teks pada kolom plat maupun jenis kendaraan, sehingga meskipun hanya sebagian kata yang dimasukkan, data yang mengandung kata itu akan tetap ditemukan dan ditampilkan.
+
 <img width="1158" height="758" alt="image" src="https://github.com/user-attachments/assets/0b2227ef-1b90-4013-8ef2-275b9605a4c1" />
 
 Ketika pengguna memasukkan ID tiket 58, plat kt123, dan kata kapal, namun seluruhnya tidak cocok dengan data yang tersimpan, maka program akan menolak input tersebut dan mengulang kembali permintaan input hingga pengguna memberikan data yang valid atau memilih batal dengan menekan ENTER.
