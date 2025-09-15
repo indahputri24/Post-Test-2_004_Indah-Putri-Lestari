@@ -156,7 +156,7 @@ Jika pengguna memilih opsi 5 (Batal Perbarui). Karena pilihan ini berarti penggu
 
 <img width="1446" height="953" alt="image" src="https://github.com/user-attachments/assets/46026a53-3d5a-4244-bdcc-a30a87643108" />
 
-Program menampilkan daftar data parkir yang tersedia, kemudian pengguna mengetikkan id tiket "7" untuk dihapus. Program mendeteksi id tiket tersebut ada dalam daftar, sehingga menampilkan konfirmasi: “Yakin ingin menghapus data dengan plat KT4321EFG? (Y/T):”. Pengguna kemudian mengetik T, yang berarti Tidak, sehingga program tidak jadi menghapus data tersebut. Program langsung menampilkan pesan “Batal hapus data, kembali ke menu utama.” dan mengembalikan pengguna ke menu utama.
+Program menampilkan daftar data parkir yang tersedia, kemudian pengguna mengetikkan id tiket "7" untuk dihapus. Program mendeteksi id tiket tersebut ada dalam daftar, sehingga menampilkan konfirmasi: “Yakin ingin menghapus data dengan plat KT1424IO? (Y/T):”. Pengguna kemudian mengetik T, yang berarti Tidak, sehingga program tidak jadi menghapus data tersebut. Program langsung menampilkan pesan “Batal hapus data, kembali ke menu utama.” dan mengembalikan pengguna ke menu utama.
 
 <img width="1432" height="854" alt="image" src="https://github.com/user-attachments/assets/b6cdd60a-4800-481b-a885-eb510c1ccb1c" />
 
