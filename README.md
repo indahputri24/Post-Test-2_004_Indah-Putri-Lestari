@@ -1,4 +1,10 @@
-# Post-Test-2_004_Indah-Putri-Lestari
+# Post Test 2 PBO
+
+Nama: Indah Putri Lestari
+
+NIM: 2409116004
+
+Kelas: A'2024
 
 # Deskripsi Program
 
